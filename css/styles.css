@@ -11445,3 +11445,18 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+@media (min-width: 200px) and (max-width: 760px) {
+  .mobile{
+    display: flex;
+    justify-self: center;
+    
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+    text-align: justify;
+  }
+  .inner{
+    width: 100%;
+  }
+}
